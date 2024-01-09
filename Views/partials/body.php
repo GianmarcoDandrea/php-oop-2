@@ -9,6 +9,7 @@
             </div>
             <ul class="list-group list-group-flush">
 
+                <!-- PRICE LIST ITEM -->
                 <li class="list-group-item">
                     <span class="fw-bold">
                         Price:
@@ -16,6 +17,8 @@
                     <?php echo $product->getPrice() . ' ' . '$' ?>
                 </li>
 
+
+                <!--LIST ITE FOR WHAT PET IS THE PRODUCT  -->
                 <li class="list-group-item">
                     <span class="fw-bold">
                         For:
@@ -23,6 +26,8 @@
 
                 </li>
 
+
+                <!--ITEM LIST FOR THE DIFFERENT ATTRIBUTES OF THE PRODUCT  -->
                 <li class="list-group-item">
 
                     <?php if (property_exists($product , 'expire')) { ?>
