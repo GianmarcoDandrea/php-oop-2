@@ -1,4 +1,4 @@
-<div class="container d-flex flex-wrap justify-content-between">
+<div class="container d-flex flex-wrap justify-content-between my-3">
     <?php foreach ($products as $product) { ?>
         <div class="card m-4" style="width: 25%">
             <img src="<?php echo $product->getImg() ?>" class="card-img-top p-5" alt="...">
