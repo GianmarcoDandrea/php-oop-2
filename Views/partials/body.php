@@ -48,7 +48,7 @@
                     <?php } else if (property_exists($product , 'material' )) { ?>
 
                         <span class="fw-bold">
-                            Type:
+                            Material:
                         </span>
 
                         <?php echo $product->getMaterial() ?>
