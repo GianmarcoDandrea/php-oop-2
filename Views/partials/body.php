@@ -18,7 +18,7 @@
                         For:
                     </span>
                     <img src="" alt="">
-                    
+
                 </li>
                 <li class="list-group-item">A third item</li>
             </ul>

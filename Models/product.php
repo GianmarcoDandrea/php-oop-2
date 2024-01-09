@@ -41,7 +41,6 @@ class Product
     {
 
         $this->img = $_img;
-
     }
 
     public function getImg()
