@@ -33,7 +33,7 @@ $products = [
 ];
 
 // CAT FOOD 
-$cat_food->setName('SalmonFood');
+$cat_food->setName('SalmonKibble');
 $cat_food->setPrice(9.50);
 $cat_food->setImg('Assets/Img/CatFood.png');
 $cat_food->setExpire('2025-10-5');
