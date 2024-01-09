@@ -67,5 +67,3 @@ $dog_toy->setName('Nylon Bone');
 $dog_toy->setPrice(15.90);
 $dog_toy->setImg('Assets/Img/DogToy.png');
 $dog_toy->setMaterial('Nylon');
-
-var_dump($product);
