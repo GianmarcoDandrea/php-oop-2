@@ -4,5 +4,6 @@
 
 <?php include __DIR__ . "/Views/partials/header.php"; ?>
 
+<?php include __DIR__ . "/Views/partials/body.php"; ?>
 
 <?php include __DIR__ . "/Views/layouts/footer.php"; ?>

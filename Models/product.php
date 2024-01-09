@@ -1,9 +1,11 @@
 <?php
+
 class Product
 {
     protected $name;
     protected $price;
     protected $img;
+    protected $category;
 
 
     // NAME
