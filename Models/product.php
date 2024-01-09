@@ -5,6 +5,7 @@ class Product
     protected $name;
     protected $price;
     protected $img;
+    protected $category;
 
 
     // NAME
@@ -45,5 +46,18 @@ class Product
     public function getImg()
     {
         return $this->img;
+    }
+
+
+    // category
+    public function setCategory($_category)
+    {
+
+        $this->category = $_category;
+    }
+
+    public function getCategory()
+    {
+        return $this->category;
     }
 }

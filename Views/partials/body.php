@@ -23,21 +23,25 @@
                     <span class="fw-bold">
                         For:
                     </span>
-
+                    <?php foreach ($categories as $category) { ?>
+                        <?php if ($product->getCategory() === $category->getName()) { ?>
+                            <img src="<?php echo $category->getIcon() ?>" alt="" style="width: 25%" class="ms-2">
+                        <?php } ?>
+                    <?php } ?>
                 </li>
 
 
                 <!--ITEM LIST FOR THE DIFFERENT ATTRIBUTES OF THE PRODUCT  -->
                 <li class="list-group-item">
 
-                    <?php if (property_exists($product , 'expire')) { ?>
+                    <?php if (property_exists($product, 'expire')) { ?>
 
                         <span class="fw-bold">
                             Expire:
                         </span>
                         <?php echo $product->getExpire() ?>
 
-                    <?php } else if (property_exists($product , 'type' )) { ?>
+                    <?php } else if (property_exists($product, 'type')) { ?>
 
                         <span class="fw-bold">
                             Type:
@@ -45,7 +49,7 @@
 
                         <?php echo $product->getType() ?>
 
-                    <?php } else if (property_exists($product , 'material' )) { ?>
+                    <?php } else if (property_exists($product, 'material')) { ?>
 
                         <span class="fw-bold">
                             Material:
