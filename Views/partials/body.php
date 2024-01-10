@@ -23,11 +23,11 @@
                     <span class="fw-bold">
                         For:
                     </span>
-                    
+
                     <?php { ?>
                         <img src="<?php echo $product->getCategory()->getIcon() ?>" alt="" style="width: 25%" class="ms-2">
                     <?php } ?>
-                   
+
                 </li>
 
 
