@@ -1,12 +1,13 @@
 <?php
-
+require_once __DIR__.'/dimension.php';
 class Product
 {
+    use Dimension;
+
     protected $name;
     protected $price;
     protected $img;
     protected $category;
-
 
     // NAME
     public function setName($_name)

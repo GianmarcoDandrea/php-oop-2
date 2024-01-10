@@ -33,43 +33,75 @@ $products = [
 ];
 
 // CAT FOOD 
-$cat_food->setName('SalmonKibble');
-$cat_food->setPrice(9.50);
-$cat_food->setImg('Assets/Img/CatFood.png');
-$cat_food->setCategory($cat);
-$cat_food->setExpire('2025-10-5');
+try {
+    $cat_food->setName('SalmonKibble');
+    $cat_food->setPrice(9.50);
+    $cat_food->setImg('Assets/Img/CatFood.png');
+    $cat_food->setCategory($cat);
+    $cat_food->setExpire('2025-10-5');
+    $cat_food->setDimension(30);
+} catch (Exception $e) {
+    echo "Info not available";
+};
+
 
 //DOG FOOD
-$dog_food->setName('ChickenBiscuits');
-$dog_food->setPrice(10.50);
-$dog_food->setImg('Assets/Img/DogFood.png');
-$dog_food->setCategory($dog);
-$dog_food->setExpire('2025-10-5');
+try {
+    $dog_food->setName('ChickenBiscuits');
+    $dog_food->setPrice(10.50);
+    $dog_food->setImg('Assets/Img/DogFood.png');
+    $dog_food->setCategory($dog);
+    $dog_food->setExpire('2025-10-5');
+    $cat_food->setDimension(50);
+} catch (Exception $e) {
+    echo "Info not available";
+};
 
 // CAT KENNEL
-$cat_kennel->setName('Cushion');
-$cat_kennel->setPrice(35.90);
-$cat_kennel->setImg('Assets/Img/CatKennel.png');
-$cat_kennel->setCategory($cat);
-$cat_kennel->setType('Indoor');
+try {
+    $cat_kennel->setName('Cushion');
+    $cat_kennel->setPrice(35.90);
+    $cat_kennel->setImg('Assets/Img/CatKennel.png');
+    $cat_kennel->setCategory($cat);
+    $cat_kennel->setType('Indoor');
+    $cat_kennel->setDimension(250);
+} catch (Exception $e) {
+    echo "Info not available";
+};
 
 //DOG KENNEL
-$dog_kennel->setName('WoodKennel');
-$dog_kennel->setPrice(69.00);
-$dog_kennel->setImg('Assets/Img/DogKennel.png');
-$dog_kennel->setCategory($dog);
-$dog_kennel->setType('Ourdoor');
+try {
+    $dog_kennel->setName('WoodKennel');
+    $dog_kennel->setPrice(69.00);
+    $dog_kennel->setImg('Assets/Img/DogKennel.png');
+    $dog_kennel->setCategory($dog);
+    $dog_kennel->setType('Ourdoor');
+    $dog_kennel->setDimension(400);
+} catch (Exception $e) {
+    echo "Info not available";
+};
 
 // CAT TOY
-$cat_toy->setName('Mouse');
-$cat_toy->setPrice(18.50);
-$cat_toy->setImg('Assets/Img/CatToy.png');
-$cat_toy->setCategory($cat);
-$cat_toy->setMaterial('Plastic');
+try {
+    $cat_toy->setName('Mouse');
+    $cat_toy->setPrice(18.50);
+    $cat_toy->setImg('Assets/Img/CatToy.png');
+    $cat_toy->setCategory($cat);
+    $cat_toy->setMaterial('Plastic');
+    $cat_toy->setDimension(20);
+} catch (Exception $e) {
+    echo "Info not available";
+};
 
 //DOG TOY
-$dog_toy->setName('Bone');
-$dog_toy->setPrice(15.90);
-$dog_toy->setImg('Assets/Img/DogToy.png');
-$dog_toy->setCategory($dog);
-$dog_toy->setMaterial('Nylon');
+try {
+    $dog_toy->setName('Bone');
+    $dog_toy->setPrice(15.90);
+    $dog_toy->setImg('Assets/Img/DogToy.png');
+    $dog_toy->setCategory($dog);
+    $dog_toy->setMaterial('Nylon');
+    $dog_toy->setDimension(25);
+} catch (Exception $e) {
+
+    echo "Info not available";
+};
