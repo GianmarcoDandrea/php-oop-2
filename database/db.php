@@ -75,7 +75,7 @@ try {
     $dog_kennel->setPrice(69.00);
     $dog_kennel->setImg('Assets/Img/DogKennel.png');
     $dog_kennel->setCategory($dog);
-    $dog_kennel->setType('Ourdoor');
+    $dog_kennel->setType('Outdoor');
     $dog_kennel->setDimension(400);
 } catch (Exception $e) {
     echo "Info not available";
