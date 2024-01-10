@@ -23,11 +23,11 @@ trait Dimension
      */
     public function getDimension()
     {
-        if($this->dimension > 0 && $this->dimension < 100) {
+        if ($this->dimension > 0 && $this->dimension < 100) {
             return 'Small';
-        } else if($this->dimension >= 100 && $this->dimension <= 250) {
+        } else if ($this->dimension >= 100 && $this->dimension <= 250) {
             return 'Medium';
-        } else {
+        } else if ($this->dimension > 250) {
             return 'Big';
         }
     }

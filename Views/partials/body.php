@@ -18,7 +18,7 @@
                 </li>
 
 
-                <!--LIST ITE FOR WHAT PET IS THE PRODUCT  -->
+                <!--LIST ITEM FOR WHAT PET IS THE PRODUCT  -->
                 <li class="list-group-item">
                     <span class="fw-bold">
                         For:
@@ -28,6 +28,17 @@
                         <img src="<?php echo $product->getCategory()->getIcon() ?>" alt="" style="width: 25%" class="ms-2">
                     <?php } ?>
 
+                </li>
+
+
+                <!--LIST ITEM FOR DIMENSION  -->
+                <li class="list-group-item">
+                    <span class="fw-bold">
+                        Dimension:
+                    </span>
+                    <span>
+                        <?php echo $product->getDimension() ?>
+                    </span>
                 </li>
 
 

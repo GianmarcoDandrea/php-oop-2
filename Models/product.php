@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__.'/dimension.php';
+require_once __DIR__ . '/dimension.php';
 class Product
 {
     use Dimension;

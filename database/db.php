@@ -52,7 +52,7 @@ try {
     $dog_food->setImg('Assets/Img/DogFood.png');
     $dog_food->setCategory($dog);
     $dog_food->setExpire('2025-10-5');
-    $cat_food->setDimension(50);
+    $dog_food->setDimension(50);
 } catch (Exception $e) {
     echo "Info not available";
 };
